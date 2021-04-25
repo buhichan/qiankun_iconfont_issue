@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/public/font_1j4vc2fobch/iconfont.js"></script>
+  </head>
+  <body>
+    <style>
+      .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
+    </style>
+    <div>
+      Just an icon here:
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-anquanyinsi"></use>
+      </svg>
+    </div>
+    <script>
+      window.microapp = {
+        async bootstrap() {
+          console.log("bootstrap");
+        },
+        async mount() {
+          console.log("mounted");
+        },
+        async unmount() {
+          console.log("unmounted");
+        },
+      };
+    </script>
+  </body>
+</html>
